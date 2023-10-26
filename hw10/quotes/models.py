@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+# Додав методи для виводу в полі вибору автора
 class Author(models.Model):
     fullname = models.CharField(max_length=50)
     born_date = models.CharField(max_length=50)
