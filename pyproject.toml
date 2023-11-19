@@ -10,6 +10,7 @@ python = "^3.11"
 django = "^4.2.6"
 psycopg2 = "^2.9.9"
 pymongo = "^4.5.0"
+django-environ = "^0.11.2"
 
 
 [build-system]
